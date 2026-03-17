@@ -1,0 +1,67 @@
+# Project State
+
+## Project Reference
+
+See: .planning/PROJECT.md (updated 2026-03-17)
+
+**Core value:** The Privacy Wall — shared household wallet for joint expenses with strictly isolated private wallets
+**Current focus:** Phase 1: Foundation & Schema
+
+## Current Position
+
+Phase: 1 of 12 (Foundation & Schema)
+Plan: 0 of ? in current phase
+Status: Ready to plan
+Last activity: 2026-03-17 — Project initialized, 12-phase roadmap created
+
+Progress: ░░░░░░░░░░ 0%
+
+## Performance Metrics
+
+**Velocity:**
+- Total plans completed: 0
+- Average duration: —
+- Total execution time: 0 hours
+
+**By Phase:**
+
+| Phase | Plans | Total | Avg/Plan |
+|-------|-------|-------|----------|
+| - | - | - | - |
+
+**Recent Trend:**
+- Last 5 plans: —
+- Trend: —
+
+*Updated after each plan completion*
+
+## Accumulated Context
+
+### Decisions
+
+Decisions are logged in PROJECT.md Key Decisions table.
+Recent decisions affecting current work:
+
+- Stack is fully flexible (research recommended Flutter + Drift + Supabase)
+- Privacy Wall as foundation — everything builds on strict wallet isolation
+- Offline-first architecture — local Drift DB is source of truth
+- All amounts stored as integer paise (not float)
+- Near real-time polling, not WebSocket
+- Last-write-wins conflict resolution
+- Free-tier only infrastructure
+
+### Pending Todos
+
+None yet.
+
+### Blockers/Concerns
+
+- Stock price API reliability is LOW confidence (NSE/BSE endpoints are undocumented) — needs research in Phase 7
+- SMS bank format corpus needs iterative development with real samples — Phase 9
+- Supabase 500MB DB limit may be tight with NAV history — monitor during Phase 7
+
+## Session Continuity
+
+Last session: 2026-03-17
+Stopped at: Project initialization complete — roadmap with 12 phases created
+Resume file: None

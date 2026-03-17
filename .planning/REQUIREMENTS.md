@@ -177,13 +177,87 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| — | — | — |
+| AUTH-01 | Phase 1 | Pending |
+| AUTH-02 | Phase 1 | Pending |
+| AUTH-03 | Phase 1 | Pending |
+| AUTH-04 | Phase 1 | Pending |
+| AUTH-05 | Phase 1 | Pending |
+| WALL-01 | Phase 1 | Pending |
+| WALL-02 | Phase 1 | Pending |
+| WALL-03 | Phase 2 | Pending |
+| WALL-04 | Phase 2 | Pending |
+| WALL-05 | Phase 2 | Pending |
+| WALL-06 | Phase 3 | Pending |
+| WALL-07 | Phase 2 | Pending |
+| TXNS-01 | Phase 2 | Pending |
+| TXNS-02 | Phase 3 | Pending |
+| TXNS-03 | Phase 3 | Pending |
+| TXNS-04 | Phase 3 | Pending |
+| TXNS-05 | Phase 2 | Pending |
+| BUDG-01 | Phase 5 | Pending |
+| BUDG-02 | Phase 5 | Pending |
+| BUDG-03 | Phase 5 | Pending |
+| BUDG-04 | Phase 5 | Pending |
+| SHOP-01 | Phase 6 | Pending |
+| SHOP-02 | Phase 6 | Pending |
+| SHOP-03 | Phase 6 | Pending |
+| SHOP-04 | Phase 6 | Pending |
+| SHOP-05 | Phase 6 | Pending |
+| INVS-01 | Phase 7 | Pending |
+| INVS-02 | Phase 7 | Pending |
+| INVS-03 | Phase 7 | Pending |
+| INVS-04 | Phase 7 | Pending |
+| INVS-05 | Phase 7 | Pending |
+| INVS-06 | Phase 7 | Pending |
+| INVS-07 | Phase 7 | Pending |
+| INVS-08 | Phase 7 | Pending |
+| INVS-09 | Phase 7 | Pending |
+| INVS-10 | Phase 7 | Pending |
+| DOCS-01 | Phase 8 | Pending |
+| DOCS-02 | Phase 8 | Pending |
+| DOCS-03 | Phase 8 | Pending |
+| DOCS-04 | Phase 8 | Pending |
+| DOCS-05 | Phase 8 | Pending |
+| DOCS-06 | Phase 8 | Pending |
+| SMS-01 | Phase 9 | Pending |
+| SMS-02 | Phase 9 | Pending |
+| SMS-03 | Phase 9 | Pending |
+| SMS-04 | Phase 9 | Pending |
+| SMS-05 | Phase 9 | Pending |
+| ANLY-01 | Phase 11 | Pending |
+| ANLY-02 | Phase 11 | Pending |
+| ANLY-03 | Phase 11 | Pending |
+| ANLY-04 | Phase 11 | Pending |
+| ANLY-05 | Phase 11 | Pending |
+| ANLY-06 | Phase 11 | Pending |
+| ANLY-07 | Phase 11 | Pending |
+| ANLY-08 | Phase 11 | Pending |
+| GOAL-01 | Phase 12 | Pending |
+| GOAL-02 | Phase 12 | Pending |
+| GOAL-03 | Phase 12 | Pending |
+| GOAL-04 | Phase 12 | Pending |
+| DEBT-01 | Phase 10 | Pending |
+| DEBT-02 | Phase 10 | Pending |
+| DEBT-03 | Phase 10 | Pending |
+| DEBT-04 | Phase 10 | Pending |
+| DEBT-05 | Phase 10 | Pending |
+| LIFE-01 | Phase 12 | Pending |
+| LIFE-02 | Phase 12 | Pending |
+| LIFE-03 | Phase 12 | Pending |
+| LIFE-04 | Phase 12 | Pending |
+| LIFE-05 | Phase 12 | Pending |
+| PLAT-01 | Phase 4 | Pending |
+| PLAT-02 | Phase 4 | Pending |
+| PLAT-03 | Phase 4 | Pending |
+| PLAT-04 | Phase 4 | Pending |
+| PLAT-05 | Phase 1 | Pending |
+| PLAT-06 | Phase 5 | Pending |
 
 **Coverage:**
-- v1 requirements: 66 total
-- Mapped to phases: 0
-- Unmapped: 66 ⚠️
+- v1 requirements: 75 total
+- Mapped to phases: 75
+- Unmapped: 0 ✓
 
 ---
 *Requirements defined: 2026-03-17*
-*Last updated: 2026-03-17 after initialization*
+*Last updated: 2026-03-17 after roadmap creation*
