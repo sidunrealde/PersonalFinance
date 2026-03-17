@@ -37,12 +37,13 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Shared wallet + private wallets exist with RLS policies that provably prevent User A from seeing User B's private data (verified by SQL test)
   4. All monetary values stored as integer paise in the database (not floating point)
   5. Flutter app builds and runs on both Android emulator and Web browser from single codebase
-**Plans:** 4 plans
+**Plans:** 5 plans
 Plans:
 - [ ] 01-01-PLAN.md — Flutter project scaffold + core infrastructure
 - [ ] 01-02-PLAN.md — Supabase schema + RLS Privacy Wall + pgTAP tests
-- [ ] 01-03-PLAN.md — Drift local database + DAOs + code generation
-- [ ] 01-04-PLAN.md — Auth flow + household invite + onboarding wizard
+- [ ] 01-03-PLAN.md — Drift Phase 1 active tables + DAOs + code generation
+- [ ] 01-04-PLAN.md — Drift future-feature table definitions + full schema
+- [ ] 01-05-PLAN.md — Auth flow + household invite + onboarding wizard
 
 ### Phase 2: Core Data Layer & Privacy Wall
 **Goal**: Repository + DAO layer with privacy enforcement at every operation, plus wallet transfers, split transactions, and per-wallet categories
