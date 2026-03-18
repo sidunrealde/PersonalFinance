@@ -10,24 +10,24 @@ See: .planning/PROJECT.md (updated 2026-03-17)
 ## Current Position
 
 Phase: 1 of 12 (Foundation & Schema)
-Plan: 1 of 5 in current phase
+Plan: 2 of 5 in current phase
 Status: Executing Phase 1
-Last activity: 2026-03-18 — Plan 01-01 complete (Flutter scaffold + core infra)
+Last activity: 2026-03-18 — Plan 01-02 complete (Supabase schema + RLS + pgTAP)
 
-Progress: █░░░░░░░░░ 2%
+Progress: ██░░░░░░░░ 4%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 1
-- Average duration: 12 min
-- Total execution time: 0.2 hours
+- Total plans completed: 2
+- Average duration: 18 min
+- Total execution time: 0.6 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| 1 | 1/5 | 12 min | 12 min |
+| 1 | 2/5 | 37 min | 18 min |
 
 **Recent Trend:**
 - Last 5 plans: —
@@ -44,6 +44,7 @@ Recent decisions affecting current work:
 
 - Stack is fully flexible (research recommended Flutter + Drift + Supabase)
 - Privacy Wall as foundation — everything builds on strict wallet isolation
+- ANY(func()) not ANY((SELECT func())) for array comparisons in RLS policies
 - Offline-first architecture — local Drift DB is source of truth
 - All amounts stored as integer paise (not float)
 - Near real-time polling, not WebSocket
@@ -63,5 +64,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-03-18
-Stopped at: Completed 01-01-PLAN.md, executing Phase 1 Wave 1
+Stopped at: Completed 01-02-PLAN.md, executing Phase 1 Wave 1
 Resume file: None

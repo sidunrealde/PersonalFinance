@@ -13,12 +13,12 @@ Requirements for initial release. Each maps to roadmap phases.
 - [ ] **AUTH-02**: User can log in and stay logged in across browser/app sessions (JWT refresh tokens)
 - [ ] **AUTH-03**: User can log out from any screen
 - [ ] **AUTH-04**: User can create or join a household via invite link/code
-- [ ] **AUTH-05**: All data encrypted in transit (TLS) and sensitive fields encrypted at rest
+- [x] **AUTH-05**: All data encrypted in transit (TLS) and sensitive fields encrypted at rest
 
 ### Privacy Wall & Wallets
 
-- [ ] **WALL-01**: Each household has one shared wallet and one private wallet per user, created automatically on signup
-- [ ] **WALL-02**: Private wallet data (transactions, categories, balances, documents) is NEVER visible to the other household member — enforced at DB (RLS), repository, and UI layers
+- [x] **WALL-01**: Each household has one shared wallet and one private wallet per user, created automatically on signup
+- [x] **WALL-02**: Private wallet data (transactions, categories, balances, documents) is NEVER visible to the other household member — enforced at DB (RLS), repository, and UI layers
 - [ ] **WALL-03**: User can transfer funds in all directions — shared→private, private→shared, private→private
 - [ ] **WALL-04**: Transfers create paired ledger entries (outgoing in source, incoming in destination); only transfer amount visible to other user for private wallets
 - [ ] **WALL-05**: User can split a single expense across wallets (e.g., ₹2000 dinner → ₹1500 shared + ₹500 personal)
@@ -181,9 +181,9 @@ Which phases cover which requirements. Updated during roadmap creation.
 | AUTH-02 | Phase 1 | Pending |
 | AUTH-03 | Phase 1 | Pending |
 | AUTH-04 | Phase 1 | Pending |
-| AUTH-05 | Phase 1 | Pending |
-| WALL-01 | Phase 1 | Pending |
-| WALL-02 | Phase 1 | Pending |
+| AUTH-05 | Phase 1 | Complete |
+| WALL-01 | Phase 1 | Complete |
+| WALL-02 | Phase 1 | Complete |
 | WALL-03 | Phase 2 | Pending |
 | WALL-04 | Phase 2 | Pending |
 | WALL-05 | Phase 2 | Pending |
