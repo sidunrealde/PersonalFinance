@@ -37,7 +37,7 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Shared wallet + private wallets exist with RLS policies that provably prevent User A from seeing User B's private data (verified by SQL test)
   4. All monetary values stored as integer paise in the database (not floating point)
   5. Flutter app builds and runs on both Android emulator and Web browser from single codebase
-**Plans:** 5 plans
+**Plans:** 1/5 plans executed
 Plans:
 - [ ] 01-01-PLAN.md — Flutter project scaffold + core infrastructure
 - [ ] 01-02-PLAN.md — Supabase schema + RLS Privacy Wall + pgTAP tests
@@ -188,7 +188,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 →
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation & Schema | 0/? | Not started | - |
+| 1. Foundation & Schema | 1/5 | In Progress|  |
 | 2. Core Data Layer & Privacy Wall | 0/? | Not started | - |
 | 3. Core UI & Ledger | 0/? | Not started | - |
 | 4. Sync Engine | 0/? | Not started | - |

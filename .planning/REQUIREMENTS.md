@@ -118,7 +118,7 @@ Requirements for initial release. Each maps to roadmap phases.
 - [ ] **PLAT-02**: Near real-time sync via polling when online — partner's changes appear within seconds
 - [ ] **PLAT-03**: Last-write-wins conflict resolution for concurrent offline edits
 - [ ] **PLAT-04**: Both local backup (exportable) and cloud backup for data safety
-- [ ] **PLAT-05**: Single codebase builds Android app + Web app (cross-platform)
+- [x] **PLAT-05**: Single codebase builds Android app + Web app (cross-platform)
 - [ ] **PLAT-06**: All notifications — budget alerts, recurring reminders, SIP dates, shared wallet activity, warranty expiry, bill reminders
 
 ## v2 Requirements
@@ -250,7 +250,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | PLAT-02 | Phase 4 | Pending |
 | PLAT-03 | Phase 4 | Pending |
 | PLAT-04 | Phase 4 | Pending |
-| PLAT-05 | Phase 1 | Pending |
+| PLAT-05 | Phase 1 | Complete |
 | PLAT-06 | Phase 5 | Pending |
 
 **Coverage:**
